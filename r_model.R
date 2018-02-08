@@ -65,6 +65,9 @@ RMSE <- sum(error)^2 / length(test_label)
 print(sqrt(RMSE))
 final_res <- data.frame(cbind(test_label, predict, error))
 
+
+# Still working on it . . .
+
 # install.packages("randomForest")
 library("randomForest")
 
